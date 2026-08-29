@@ -15,7 +15,7 @@
 nav {
   width: 100%;
   max-width: 1600px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 auto;
   padding: 0 120px;
   display: flex;
@@ -54,10 +54,12 @@ nav .menu li a {
     border-radius: 4px;
 }
 #banner{
+  background: url("../B13-A01-Knowledge-Vault/assets/hero-bg.png");
+  background-repeat: no-repeat;
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
-  border: 1px solid red; 
+  /* border: 1px solid red;  */
 }
 #banner .banner-container{
   max-width: 1360px;
@@ -82,7 +84,7 @@ nav .menu li a {
   margin: 0 auto;
   font-weight: bold;
   line-height: 84px;
-  color:#469165;
+  color:#FFFFFF;
 }
 .section-heading .heading2{
   /* padding-top: 16px; */
@@ -104,6 +106,7 @@ nav .menu li a {
   line-height: 24px;
   text-align: center;
   padding-bottom: 16px;
+  color: #FFFFFF;
 }
 .section-button{
   padding-top: 34px;
@@ -116,14 +119,15 @@ nav .menu li a {
   font-size: 16px;
   font-weight: 600;
   background-color: #469165;
-  padding:16.5px 46px 16.5px 16px;
+  padding:16.5px 16px 16.5px 16px;
   color: #FFFFFF;
   border-radius: 4px;
 }
 .section-button .button2{
   font-size: 16px;
   font-weight: 600;
-  padding:16.5px 16px 16.5px 46px;
+  padding:16.5px 16px 16.5px 16px;
   color: #FFFFFF;
   border-radius: 4px;
+  background-color: #0019314a;
 }
