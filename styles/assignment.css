@@ -205,13 +205,13 @@ nav .menu li a {
   text-align: center;
   margin: 0 auto;
 }
-#brain{
+/* #brain{
   width: 100%;
   max-width:1600px;
   margin: 0 auto;
-}
+} */
 #brain .brain-container{
-  max-width: 1360px;
+  width: 1360px;
   margin: 120px 120px;
   display: flex;
   gap: 60px;
@@ -255,4 +255,38 @@ nav .menu li a {
 .brain-container .brain-heading h6 img{
   width: 20px;
   height: 20px;
+}
+.section-container{
+  max-width:1360px;
+  margin: 0 auto;
+  border: 1px solid rebeccapurple;
+  text-align: center;
+  padding-bottom: 80px;
+  background-color:#F7F6F2;
+}
+.section-container h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+  padding-top: 80px;
+}
+.section-container p{
+  margin: 0 auto;
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #627382;
+  /* text-align: center;
+  justify-content: space-between; */
+}
+.section-container button{
+  margin-top: 24px;
+  max-width: 194px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #469165;
+  padding:16.5px 16px 16.5px 16px;
+  color: #FFFFFF;
+  border-radius: 4px;
 }
