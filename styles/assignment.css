@@ -131,3 +131,128 @@ nav .menu li a {
   border-radius: 4px;
   background-color: #0019314a;
 }
+
+#note{
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+#note .note-heading{
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  /* border: 1px solid rebeccapurple; */
+
+}
+#note .note-heading h2{
+  padding-top: 30px ;
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  padding-bottom: 16px;
+}
+
+#note .note-heading p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+}
+.note-box{
+  display: flex;
+  margin: 0 auto;
+  /* justify-content: space-between; */
+  padding-top: 44px;
+  max-width: 1360px;
+  /* border: 1px solid red; */
+  gap: 24px;
+}
+.note-box .note-card{
+  max-width: 322px;
+  background-color: #FFFFFF;
+  border: 1px solid rebeccapurple;
+  text-align: center;
+  /* padding: 69.5px 0; */
+  box-shadow: 0 0 8px #00000027;
+}
+.note-card img{
+  background-color:#F95555;
+  width: 60px;
+  border-radius: 50%;
+  justify-content: center;
+  padding: 14px 13px;
+  align-items: center;
+  margin:69.5px 131px ;
+}
+.note-card h4{
+  max-width: 274px;
+  font-size: 24px;
+  font-weight:600;
+  color: #001931;
+  margin: 0 auto;
+  /* text-align: center;
+  justify-content: space-between; */
+  margin-bottom:16px;
+}
+.note-card p{
+  max-width: 274px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+  text-align: center;
+  margin: 0 auto;
+}
+#brain{
+  width: 100%;
+  max-width:1600px;
+  margin: 0 auto;
+}
+#brain .brain-container{
+  max-width: 1360px;
+  margin: 120px 120px;
+  display: flex;
+  gap: 60px;
+  /* text-align: center; */
+  justify-content: space-between;
+}
+#brain .brain-container .brain-img{
+  max-width: 600px;
+}
+#brain .brain-container .brain-heading{
+  max-width:700px;
+  padding: 102px 0;
+}
+.brain-container .brain-heading h5{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #469165;
+  padding-bottom: 16px;
+}
+.brain-container .brain-heading h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+}
+.brain-container .brain-heading p{
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+  padding-bottom:40px;
+}
+.brain-container .brain-heading h6{
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #001931;
+}
+.brain-container .brain-heading h6 img{
+  width: 20px;
+  height: 20px;
+}
